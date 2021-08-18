@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintCircleRadius="@dimen/cardview_default_radius"
+    tools:context=".MainActivity"
+    android:background="#B2ABDC"
+    >
+
+    <EditText
+        android:id="@+id/num_1"
+        android:layout_width="278dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint=" frist value"
+        android:textColorHint="#787878"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:background="#CEFADF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/num_2"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:background="#CEFADF"
+        android:hint="second value"
+        android:textColorHint="#787878"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num_1" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#FCFCFD"
+        android:textSize="18dp"
+        android:text="pls click me !!"
+        android:background="#FC762D9E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
